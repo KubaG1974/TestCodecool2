@@ -1,0 +1,15 @@
+/home/jakub/RiderProjects/TestCodecool2/TestApp/bin/Debug/net7.0/TestApp
+/home/jakub/RiderProjects/TestCodecool2/TestApp/bin/Debug/net7.0/TestApp.deps.json
+/home/jakub/RiderProjects/TestCodecool2/TestApp/bin/Debug/net7.0/TestApp.runtimeconfig.json
+/home/jakub/RiderProjects/TestCodecool2/TestApp/bin/Debug/net7.0/TestApp.dll
+/home/jakub/RiderProjects/TestCodecool2/TestApp/bin/Debug/net7.0/TestApp.pdb
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/TestApp.csproj.AssemblyReference.cache
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/TestApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/TestApp.AssemblyInfoInputs.cache
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/TestApp.AssemblyInfo.cs
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/TestApp.csproj.CoreCompileInputs.cache
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/TestApp.dll
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/refint/TestApp.dll
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/TestApp.pdb
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/TestApp.genruntimeconfig.cache
+/home/jakub/RiderProjects/TestCodecool2/TestApp/obj/Debug/net7.0/ref/TestApp.dll
