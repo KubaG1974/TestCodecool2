@@ -11,8 +11,8 @@ public class Program
         var pilot2 = new Pilot("Zenon Kowalski", new DateTime(1985, 1, 15), false);
 
         var attendant1 = new FlightAttendant("Emily Brown", new DateTime(1992, 7, 22), new List<Language> { Language.English, Language.German });
-        var attendant2 = new FlightAttendant("Oliver Johnson", new DateTime(1993, 9, 8), new List<Language> { Language.Spanish, Language.Russian });
-        var attendant3 = new FlightAttendant("Sophia Wilson", new DateTime(1995, 3, 18), new List<Language> { Language.English, Language.German });
+        var attendant2 = new FlightAttendant("Stan Johnson", new DateTime(1993, 9, 8), new List<Language> { Language.Spanish, Language.Russian });
+        var attendant3 = new FlightAttendant("Bart Wilson", new DateTime(1995, 3, 18), new List<Language> { Language.English, Language.German });
 
         var flight = new Flight("ABC123", Language.German);
 
