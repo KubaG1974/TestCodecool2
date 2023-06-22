@@ -29,5 +29,17 @@ public class Flight
         LogClearanceCheck(allPilotsReceivedCompass, allAttendantsSpeakLanguage);
         return false;
     }
+    private void LogClearanceCheck(bool allPilotsReceivedCompass, bool allAttendantsSpeakLanguage)
+    {
+        Console.WriteLine("Clearance check failed:");
+
+        if (!allPilotsReceivedCompass)
+            Console.WriteLine("  - Not all pilots have received their compasses.");
+
+        if (!allAttendantsSpeakLanguage)
+            Console.WriteLine("  - Not all flight attendants speak the required language.");
+
+        Console.WriteLine();
+    }
     
 }
