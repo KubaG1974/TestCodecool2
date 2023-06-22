@@ -2,7 +2,7 @@ using System;
 
 namespace TestApp;
 
-public abstract class AirlineEmployee
+public class AirlineEmployee
 {
     public string Name { get; set; }
     public DateTime BirthDate { get; set; }
