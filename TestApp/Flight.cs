@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+namespace TestApp;
+
 public class Flight
 {
     public string Identifier { get; set; }
@@ -15,4 +17,17 @@ public class Flight
         Pilots = new List<Pilot>();
         FlightAttendants = new List<FlightAttendant>();
     } 
+    public bool IsReadyForTakeoff()
+    {
+        bool allPilotsReceivedCompass = Pilots.TrueForAll(pilot => pilot?.HasReceivedCompass ?? false);
+        bool allAttendantsSpeakLanguage = FlightAttendants.TrueForAll(attendant =>
+            attendant?.SpokenLanguages?.Contains(FlightLanguage) ?? false);
+
+        if (allPilotsReceivedCompass && allAttendantsSpeakLanguage)
+            return true;
+
+        LogClearanceCheck(allPilotsReceivedCompass, allAttendantsSpeakLanguage);
+        return false;
+    }
+    
 }
